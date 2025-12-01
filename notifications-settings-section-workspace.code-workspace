@@ -1,0 +1,40 @@
+{
+  "folders": [
+		{
+			"name": "🚀 project",
+			"path": "."
+		}
+  ],
+  "settings": {
+    // TypeScript & Package Management
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "npm.packageManager": "yarn",
+
+    // TailwindCSS
+    "tailwindCSS.includeLanguages": {
+      "typescript": "javascript",
+      "typescriptreact": "javascript",
+    },
+
+    // File Associations
+    "files.associations": {
+      "*.css": "tailwindcss",
+      ".env.*": "dotenv",
+    },
+
+    // Editor Config
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.formatDocument": "always",
+      "source.addMissingImports": "always",
+      "source.organizeImports": "explicit",
+      "source.fixAll.eslint": "explicit",
+      "source.fixAll.stylelint": "explicit",
+    },
+    "[typescript][javascript][typescriptreact][javascriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+  },
+}
