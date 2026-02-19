@@ -70,7 +70,7 @@ const NotificationForm = ({
           {channels.map(channel => (
             <span
               key={channel}
-              className='py-2 text-left text-sm font-medium text-neutral-900'
+              className='py-2 text-left text-sm font-semibold text-neutral-900'
             >
               {formatChannelLabel(channel)}
             </span>
