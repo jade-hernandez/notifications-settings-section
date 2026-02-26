@@ -92,7 +92,7 @@ const NotificationForm = ({
           <button
             type='submit'
             disabled={saving}
-            className='flex w-44 items-center justify-center gap-2 rounded bg-indigo-700 px-5 py-3 text-base font-medium text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:shadow-[0_0px_0px_1px_rgba(68,76,231,0.1),0_0px_0px_4px_rgba(68,76,231,0.12)] focus:outline-none disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:text-neutral-400'
+            className='flex w-44 cursor-pointer items-center justify-center gap-2 rounded bg-indigo-700 px-5 py-3 text-base font-medium text-white hover:bg-indigo-800 focus:bg-indigo-800 focus:shadow-[0_0px_0px_1px_rgba(68,76,231,0.1),0_0px_0px_4px_rgba(68,76,231,0.12)] focus:outline-none disabled:cursor-not-allowed disabled:bg-neutral-100 disabled:text-neutral-400'
           >
             {saving && (
               <span className='inline-block h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent' />
